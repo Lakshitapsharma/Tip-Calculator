@@ -1,0 +1,74 @@
+ body{
+    background-image: url(resta.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#header {
+    border-bottom: 2px solid black;
+    font-size: 1cm;
+}    
+  
+
+#container{
+    background-color: rgba(238, 131, 81, 0.5);
+    width: 35%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    border-radius: 5px;
+    box-shadow:0 5px 10px 0 rgb(116, 7, 7);
+    opacity: 0.9;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  input, select{
+    width: 50%;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+     }
+  
+     ::-webkit-input-placeholder{
+        color: black;
+        text-align: center;
+     }
+    
+  
+  .calc, .reset{
+     padding: 10px 20px;
+     font-size: 16px;
+     color: black;
+     text-align: center;
+     font-weight: bold;
+     letter-spacing: 1px;
+     background-color: whitesmoke;
+     cursor: pointer;
+  }
+
+  #single, #multiple {
+    text-align: right;
+    margin: 20px 0;
+    font-size: medium;
+    color: black;
+  }
+
+  #serviceQual, #tip, #numberPeople{
+      width: 155px;
+      color: black;
+      height: 35px;
+  }
+
+
+   
